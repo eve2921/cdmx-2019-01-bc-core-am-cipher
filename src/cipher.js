@@ -1,29 +1,33 @@
-window.cipher = {
-/*
-  encode(){
-    },
-  
-  decode(){
-    } 
-*/
 
-/*encode(){
-    var miLetraEnAscii = String.fromCharCode(65);
-    document.getElementById("encriptando").innerHTML = miLetraEnAscii;
-    console.log(A);
+function encode() {
+let numeros = document.getElementById("numero").value;
+let textoo = document.getElementById("text").value;
+let mensaje = "";
+for(let i = 0;i<textoo.length;i++){
+	let numerodecacter = textoo.charAt(i).charCodeAt(0);
+	let codificado = ((parseInt(numerodecacter - 65) + parseInt(numeros)) % 26) + 65;
+	mensaje += String.fromCharCode(codificado);
+}
+console.log(mensaje);
 
-}*/
-encode(){
-let miLetraEnAscii = 'a'
-let ascii_value = miLetraEnAscii.charCodeAt(0)
-console.log(ascii_value);
+//alert(numeros + ' .... ' + textoo);
 }
 
 
 
+function decode(){
 
+	let numeros = document.getElementById("numero").value;
+let textoo = document.getElementById("textD").value;
+let mensaje = "";
+for(var i = 0;i<textoo.length;i++){
+	let numerodecacter = textoo.charAt(i).charCodeAt(0);
+	let codificado = ((parseInt(numerodecacter - 65) - parseInt(numeros)) % 26) + 65;
+	mensaje += String.fromCharCode(codificado);
+}
+console.log(mensaje);
+}
 
-  };
 
 
 

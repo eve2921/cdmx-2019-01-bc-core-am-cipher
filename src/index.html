@@ -8,24 +8,15 @@
   <body>
     <div id="root">
       <h1>Codificaland!</h1>
-<form>
-  Ingresa tu texto:<br>
-  <input type="text" name="entrada"><br>
-    <input type="text" name="salida">
+      
 
-  Elige tu desplazamiento
-  <input type="number" id="tentacles" name="tentacles"
-       min="10" max="100">
-
-  Texto codificado:<br>
-  <input type="text" name="salida">
-  <input type="text" name="salida">
-</form>
-
-<form>
-  <input type="button" id="encriptando" value="Encriptar" onclick="msg()">
-  <input type="button" id="desencriptando" value="Desencriptar" onclick="msg()">
-</form>
+      numero de posicion: <input type="number" name="numero" id="numero"><br>      
+      texto a codificar: <input type="text" name="text" id="text"><br>
+      <input type="button" value="encode" onclick="encode();"><br>          
+      texto a decodificar: <input type="text" name="textD" id="textD"><br>
+      <input type="button" value="decode" onclick="decode();"><br>
+         
+      
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
