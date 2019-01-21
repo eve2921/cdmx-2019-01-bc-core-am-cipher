@@ -27,3 +27,9 @@ encodeButton.addEventListener('click', () => {
 
 
 
+// const resultSuma =  suma(3,3)
+
+// console.log(resultSuma)
+
+
+
