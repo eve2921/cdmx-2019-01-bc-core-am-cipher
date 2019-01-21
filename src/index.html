@@ -8,17 +8,19 @@
   <body>
     <div id="root">
       <h1>Codificaland!</h1>
-<form>
-  Ingresa tu texto:<br>
-  <input type="text" name="entrada"><br>
-  Texto codificado:<br>
-  <input type="text" name="salida">
-</form>
 
-<form>
-  <input type="button" id="encriptando" value="Encriptar" onclick="msg()">
-  <input type="button" id="desencriptando" value="Desencriptar" onclick="msg()">
-</form>
+      <body>
+        <label for=""> numero de posicion :</label> <input type="number" name="numero" id="numero"><br>
+        texto a codificar: <input type="text" name="text" id="text"><br>
+        <input id="button-encode" type="button" value="encode"><br>
+        texto a decodificar: <input type="text" name="textD" id="textD"><br>
+        <input type="button" value="decode" onclick="decode();"><br>
+
+        <hr>
+        <div>
+          <p id="print"> Tu resultado es : </p>
+        </div>
+       </body>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
