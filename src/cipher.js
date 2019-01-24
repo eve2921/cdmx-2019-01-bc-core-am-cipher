@@ -19,6 +19,7 @@ window.cipher = {
   let numeroDecacterb = textoDecifrar.charAt(i).charCodeAt(0);
   let decodificado = ((parseInt(numeroDecacterb - 65) - parseInt(numeroDecifrar)) % 26) + 65;
   console.log(numeroDecacterb)
+  console.log(decodificado)
   mensajeDecifrado += String.fromCharCode(decodificado);
   }
   console.log(mensajeDecifrado)
