@@ -12,9 +12,11 @@ body{
 }
 
 .encabezado{
-    background-color: rgb(247, 220, 22);
-    height: 100px;
-
+    font-family: 'Baloo Thambi', cursive;
+    color: #ffffff; 
+    background: url(http://fc04.deviantart.net/fs71/i/2010/354/8/2/green_and_black_background_by_bubblegumwlm-d35atzc.jpg);
+    height: 70px;
+    
 }
 
 .contenido{
@@ -22,9 +24,10 @@ body{
 }
 
 .post{
-    background-color: aqua;
-    height: 200px;
+    background-image: url(https://1ut4jnm5m10oxrax2wal0104-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/nys.jpg);
+    height: 600px;
     margin-bottom: 1em;
+
 }
 
 .pie-pagina{
@@ -32,12 +35,24 @@ body{
     background-color: #000;
 
 }
-
-.caja { 
-    font-family: sans-serif; 
-    font-size: 18px; 
-    font-weight: 500; 
-    color: #ffffff; 
-    background:#ee0467;
-    float: right;
+ 
+    .caja { 
+        font-family: 'ZCOOL KuaiLe', cursive;
+        color: #ffffff; 
+        font-size: 18px; 
+        font-weight: 400; 
+        text-align: center; 
+        background: #9b7714; 
+        margin: 0 0 25px; 
+        overflow: hidden; 
+        padding: 20px; 
+        border-radius: 35px 0px 35px 0px; 
+        -moz-border-radius: 35px 0px 35px 0px; 
+        -webkit-border-radius: 35px 0px 35px 0px; 
+        border: 2px solid #4e3c08;}
  }
+
+ #juego {
+    width: 120px;
+    height: 250px;
+  }
