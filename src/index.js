@@ -1,3 +1,4 @@
+//document.addEventListener("click", miLetraEnAscii);
 let numeros = document.getElementById("numero");
 let textoo = document.getElementById("text");
 let textoo2 = document.getElementById("textD");
@@ -19,7 +20,3 @@ decodeButton.addEventListener('click', () => {
     const mensajeEscritoDecodificado =window.cipher.decode(numeroDecifrar, textoDecifrar)
     print.innerHTML = mensajeEscritoDecodificado
 })
-
-
-
-
