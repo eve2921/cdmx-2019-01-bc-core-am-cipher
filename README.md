@@ -3,11 +3,7 @@ Es una herramienta de códificado tipo cesar que se basa en el desplazamiento de
 
 Cómo empezar
 Una vez clonado el repositorio de git encontraras en la carpeta de src los archivos en los que se encuentra el código:
-├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.cs
+cipher.js, index.html, index.js y style.css
 
 ¿Quiénes son los principales usuarios de producto?
 Usuarios entre 15 y 28 años que jueguen "Aliens en el tiempo"
